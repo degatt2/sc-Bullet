@@ -1,0 +1,8 @@
+Work in progress.
+
+Broad TODO:
+1. compile bullet 3d libs for OSX 	( X )
+.1 compile bullet 3d libs for win7	(  )
+2. use bullet 3d directly in an app	(  )
+3. simplify bullet world creation	(  )
+4. TriMesh -> Bullet integration	(  )
