@@ -1,0 +1,508 @@
+TBulletSoftBodySolvers_CPU
+v7
+r0
+t314949686.356143
+cCheck dependencies
+cPhaseScriptExecution "CMake ReRun" /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Script-101AA08D0101AA08D0101AA0.sh
+cCompileC src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects-normal/x86_64/btSoftBodySolver_CPU.o /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLibtool /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/libBulletSoftBodySolvers_CPU.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Script-101AA12B0101AA12B0101AA1.sh
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/memory.h
+c000000004BBD2CE90000000000000765
+t1270689001
+s1893
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/emmintrin.h
+c000000004A11EB24000000000000EA8F
+t1242688292
+s60047
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004A11EB240000000000001538
+t1242688292
+s5432
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/xmmintrin.h
+c000000004A11EB24000000000000BECA
+t1242688292
+s48842
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h
+c000000004B8CDB320000000000001E9A
+t1267522354
+s7834
+i"LinearMath/btScalar.h"
+i"LinearMath/btVector3.h"
+i"LinearMath/btAlignedAllocator.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/BroadphaseCollision/btDbvt.h
+c000000004B6DBA050000000000007CFD
+t1265482245
+s31997
+i"LinearMath/btAlignedObjectArray.h"
+i"LinearMath/btVector3.h"
+i"LinearMath/btTransform.h"
+i"LinearMath/btAabbUtil2.h"
+i<emmintrin.h>
+i<memory.h>
+i<string.h>
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/CollisionDispatch/btCollisionCreateFunc.h
+c00000000499C91130000000000000671
+t1234997523
+s1649
+i"LinearMath/btAlignedObjectArray.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/CollisionDispatch/btCollisionObject.h
+c000000004C6852030000000000003832
+t1281905155
+s14386
+i"LinearMath/btTransform.h"
+i"LinearMath/btMotionState.h"
+i"LinearMath/btAlignedAllocator.h"
+i"LinearMath/btAlignedObjectArray.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/CollisionShapes/btCapsuleShape.h
+c000000004B7CDB4300000000000016D4
+t1266473795
+s5844
+i"btConvexInternalShape.h"
+i"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/CollisionShapes/btCollisionMargin.h
+c000000004A09F81D000000000000047A
+t1242167325
+s1146
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/CollisionShapes/btCollisionShape.h
+c000000004B8CDB3200000000000011A9
+t1267522354
+s4521
+i"LinearMath/btTransform.h"
+i"LinearMath/btVector3.h"
+i"LinearMath/btMatrix3x3.h"
+i"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/CollisionShapes/btConcaveShape.h
+c000000004A09F81D000000000000080C
+t1242167325
+s2060
+i"btCollisionShape.h"
+i"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+i"btTriangleCallback.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/CollisionShapes/btConvexInternalShape.h
+c000000004B5FA7E20000000000001586
+t1264560098
+s5510
+i"btConvexShape.h"
+i"LinearMath/btAabbUtil2.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/CollisionShapes/btConvexShape.h
+c000000004A09F81D0000000000000C25
+t1242167325
+s3109
+i"btCollisionShape.h"
+i"LinearMath/btVector3.h"
+i"LinearMath/btTransform.h"
+i"LinearMath/btMatrix3x3.h"
+i"btCollisionMargin.h"
+i"LinearMath/btAlignedAllocator.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/CollisionShapes/btStridingMeshInterface.h
+c000000004B8CDB32000000000000149A
+t1267522354
+s5274
+i"LinearMath/btVector3.h"
+i"btTriangleCallback.h"
+i"btConcaveShape.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/CollisionShapes/btTriangleCallback.h
+c000000004A09F81D00000000000006A2
+t1242167325
+s1698
+i"LinearMath/btVector3.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h
+c000000004A80BBB10000000000001422
+t1249950641
+s5154
+i"btStridingMeshInterface.h"
+i"LinearMath/btAlignedObjectArray.h"
+i"LinearMath/btScalar.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletCollision/NarrowPhaseCollision/btGjkEpa2.h
+c000000004A80BBB100000000000009F9
+t1249950641
+s2553
+i"BulletCollision/CollisionShapes/btConvexShape.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletDynamics/Dynamics/btRigidBody.h
+c000000004C6852030000000000004D9C
+t1281905155
+s19868
+i"LinearMath/btAlignedObjectArray.h"
+i"LinearMath/btTransform.h"
+i"BulletCollision/BroadphaseCollision/btBroadphaseProxy.h"
+i"BulletCollision/CollisionDispatch/btCollisionObject.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects-normal/x86_64/BulletSoftBodySolvers_CPU.LinkFileList
+c000000004D1588B400000000000000D7
+t1293256884
+s215
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects-normal/x86_64/btSoftBodySolver_CPU.o
+t1293256886
+s52072
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Script-101AA08D0101AA08D0101AA0.sh
+c000000004D1588B400000000000000AE
+t1293256884
+s174
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Script-101AA12B0101AA12B0101AA1.sh
+c000000004D1588B4000000000000013C
+t1293256884
+s316
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/libBulletSoftBodySolvers_CPU.a
+t1293256886
+s56088
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolverData.h
+c000000004C880C870000000000004792
+t1283984519
+s18322
+i"BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h"
+i"vectormath/vmInclude.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp
+c000000004C4746600000000000007B34
+t1279739488
+s31540
+i"BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h"
+i"BulletCollision/CollisionDispatch/btCollisionObject.h"
+i"BulletCollision/CollisionShapes/btCollisionShape.h"
+i"vectormath/vmInclude.h"
+i"BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.h"
+i"BulletSoftBody/btSoftBody.h"
+i"BulletCollision/CollisionShapes/btCapsuleShape.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.h
+c000000004C47466000000000000023CA
+t1279739488
+s9162
+i"vectormath/vmInclude.h"
+i"BulletSoftBody/btSoftBodySolvers.h"
+i"BulletSoftBody/btSoftBodySolverVertexBuffer.h"
+i"BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolverData.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletSoftBody/btSoftBody.h
+c000000004C40EAA10000000000006DB1
+t1279322785
+s28081
+i"LinearMath/btAlignedObjectArray.h"
+i"LinearMath/btTransform.h"
+i"LinearMath/btIDebugDraw.h"
+i"BulletDynamics/Dynamics/btRigidBody.h"
+i"BulletCollision/CollisionShapes/btConcaveShape.h"
+i"BulletCollision/CollisionDispatch/btCollisionCreateFunc.h"
+i"btSparseSDF.h"
+i"BulletCollision/BroadphaseCollision/btDbvt.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletSoftBody/btSoftBodySolverVertexBuffer.h
+c000000004C40EAA10000000000000EE1
+t1279322785
+s3809
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletSoftBody/btSoftBodySolvers.h
+c000000004C65E9B1000000000000136A
+t1281747377
+s4970
+i"BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletSoftBody/btSparseSDF.h
+c00000000499C91130000000000001B19
+t1234997523
+s6937
+i"BulletCollision/CollisionDispatch/btCollisionObject.h"
+i"BulletCollision/NarrowPhaseCollision/btGjkEpa2.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/LinearMath/btAabbUtil2.h
+c000000004913486B00000000000021BB
+t1226000491
+s8635
+i"btTransform.h"
+i"btVector3.h"
+i"btMinMax.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/LinearMath/btAlignedAllocator.h
+c00000000499C9113000000000000114F
+t1234997523
+s4431
+i"btScalar.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/LinearMath/btAlignedObjectArray.h
+c000000004C40EAA1000000000000280E
+t1279322785
+s10254
+i"btScalar.h"
+i"btAlignedAllocator.h"
+i<memory.h>
+i<string.h>
+i<new>
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/LinearMath/btIDebugDraw.h
+c000000004C48A8E30000000000002D46
+t1279830243
+s11590
+i"btVector3.h"
+i"btTransform.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/LinearMath/btMatrix3x3.h
+c000000004B5E52430000000000005282
+t1264472643
+s21122
+i"btVector3.h"
+i"btQuaternion.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/LinearMath/btMinMax.h
+c000000004C3604AE00000000000006B9
+t1278608558
+s1721
+i"LinearMath/btScalar.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/LinearMath/btMotionState.h
+c00000000499C9113000000000000063D
+t1234997523
+s1597
+i"btTransform.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/LinearMath/btQuadWord.h
+c0000000049338715000000000000175A
+t1228113685
+s5978
+i"btScalar.h"
+i"btMinMax.h"
+i<altivec.h>
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/LinearMath/btQuaternion.h
+c000000004AEFCC3B00000000000039A0
+t1257229371
+s14752
+i"btVector3.h"
+i"btQuadWord.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/LinearMath/btScalar.h
+c000000004C61A64F0000000000003F47
+t1281467983
+s16199
+i<math.h>
+i<stdlib.h>
+i<cstdlib>
+i<cfloat>
+i<float.h>
+i<ppcintrinsics.h>
+i<emmintrin.h>
+i<assert.h>
+i<assert.h>
+i<spu_printf.h>
+i<assert.h>
+i<emmintrin.h>
+i<assert.h>
+i<assert.h>
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/LinearMath/btTransform.h
+c000000004B5E52430000000000002255
+t1264472643
+s8789
+i"btMatrix3x3.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/LinearMath/btVector3.h
+c000000004C9406D2000000000000519C
+t1284769490
+s20892
+i"btScalar.h"
+i"btMinMax.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/vectormath/scalar/mat_aos.h
+c000000004C3604AE000000000000B1AC
+t1278608558
+s45484
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/vectormath/scalar/quat_aos.h
+c000000004C3604AE0000000000002890
+t1278608558
+s10384
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/vectormath/scalar/vec_aos.h
+c000000004C3604AE0000000000007CC1
+t1278608558
+s31937
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/vectormath/scalar/vectormath_aos.h
+c000000004C3604AE000000000000D5F3
+t1278608558
+s54771
+i<math.h>
+i<stdio.h>
+i"vec_aos.h"
+i"quat_aos.h"
+i"mat_aos.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/vectormath/sse/boolInVec.h
+c000000004C3604AE0000000000001D2A
+t1278608558
+s7466
+i<math.h>
+i"floatInVec.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/vectormath/sse/floatInVec.h
+c000000004C3604AE00000000000023EC
+t1278608558
+s9196
+i<math.h>
+i<xmmintrin.h>
+i"boolInVec.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/vectormath/sse/mat_aos.h
+c000000004C3604AE00000000000124AB
+t1278608558
+s74923
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/vectormath/sse/quat_aos.h
+c000000004C3604AE000000000000439E
+t1278608558
+s17310
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/vectormath/sse/vec_aos.h
+c000000004C3604AE000000000000A555
+t1278608558
+s42325
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/vectormath/sse/vecidx_aos.h
+c000000004C3604AE0000000000000C7F
+t1278608558
+s3199
+i"floatInVec.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/vectormath/sse/vectormath_aos.h
+c000000004C3604AE000000000001549B
+t1278608558
+s87195
+i<math.h>
+i<xmmintrin.h>
+i<emmintrin.h>
+i<assert.h>
+i<intrin.h>
+i"vecidx_aos.h"
+i"floatInVec.h"
+i"boolInVec.h"
+i<stdio.h>
+i"vec_aos.h"
+i"quat_aos.h"
+i"mat_aos.h"
+
+N/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/vectormath/vmInclude.h
+c000000004C4767B400000000000002D0
+t1279748020
+s720
+i"LinearMath/btScalar.h"
+i<vectormath_aos.h>
+i"sse/vectormath_aos.h"
+i"scalar/vectormath_aos.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314949684#314949684#0(0"0(0#1#0"8661804768#0"0#
+
+CCompileC src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects-normal/x86_64/btSoftBodySolver_CPU.o /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s314949684.609115
+e314949686.259098
+r1
+xCompileC
+xsrc/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects-normal/x86_64/btSoftBodySolver_CPU.o
+x/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp: In member function 'virtual void btCPUSoftBodySolver::optimize(btAlignedObjectArray<btSoftBody*>&)':
+o/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp:157: warning: unused variable 'maxLinks'
+o/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp: In member function 'void btCPUSoftBodySolver::applyForces(float)':
+o/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp:276: warning: unused variable 'numVertices'
+o/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp: In member function 'void btCPUSoftBodySolver::prepareCollisionConstraints()':
+o/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp:424: warning: unused variable 'shapeDescription'
+o/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp: In member function 'virtual void btCPUSoftBodySolver::solveConstraints(float)':
+o/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp:629: warning: unused variable 'startLink'
+o/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp:630: warning: unused variable 'numLinks'
+o/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.h: In member function 'void btCPUSoftBodySolver::prepareCollisionConstraints()':
+o/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.h:34: warning: '<anonymous>.btCPUSoftBodySolver::CollisionShapeDescription::shapeInformation' is used uninitialized in this function
+o/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.h:49: note: '<anonymous>.btCPUSoftBodySolver::CollisionShapeDescription::shapeInformation' was declared here
+lSLF07#2@141"Compile /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp314949684#314949686#0(2466"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp: In member function 'virtual void btCPUSoftBodySolver::optimize(btAlignedObjectArray<btSoftBody*>&)':/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp:157: warning: unused variable 'maxLinks'/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp: In member function 'void btCPUSoftBodySolver::applyForces(float)':/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp:276: warning: unused variable 'numVertices'/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp: In member function 'void btCPUSoftBodySolver::prepareCollisionConstraints()':/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp:424: warning: unused variable 'shapeDescription'/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp: In member function 'virtual void btCPUSoftBodySolver::solveConstraints(float)':/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp:629: warning: unused variable 'startLink'/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp:630: warning: unused variable 'numLinks'/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.h: In member function 'void btCPUSoftBodySolver::prepareCollisionConstraints()':/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.h:34: warning: '<anonymous>.btCPUSoftBodySolver::CollisionShapeDescription::shapeInformation' is used uninitialized in this function/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.h:49: note: '<anonymous>.btCPUSoftBodySolver::CollisionShapeDescription::shapeInformation' was declared here7(22@26"Unused variable 'maxLinks'314949684#236#175#0(6@133"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp301432288#157#0#157#0#19"unused variable '*'0(22@29"Unused variable 'numVertices'314949684#613#178#0(6@133"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp301432288#276#0#276#0#19"unused variable '*'0(22@34"Unused variable 'shapeDescription'314949684#1004#183#0(6@133"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp301432288#424#0#424#0#19"unused variable '*'0(22@27"Unused variable 'startLink'314949684#1402#176#0(6@133"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp301432288#629#0#629#0#19"unused variable '*'0(22@26"Unused variable 'numLinks'314949684#1578#175#0(6@133"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp301432288#630#0#630#0#19"unused variable '*'0(22@117"'<anonymous>.btCPUSoftBodySolver::CollisionShapeDescription::shapeInformation' is used uninitialized in this function314949685#1964#263#0(6@131"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.h301432288#34#0#34#0#42"'*' is used uninitialized in this function0(13@96"'<anonymous>.btCPUSoftBodySolver::CollisionShapeDescription::shapeInformation' was declared here314949685#2227#239#0(6@131"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.h301432288#49#0#49#0#0"0(0#0#133"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp8616214752#1558"    cd /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -DCMAKE_INTDIR="Release" -DUSE_GRAPHICAL_BENCHMARK -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release -I/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers -I/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src -I/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/DerivedSources/x86_64 -I/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/DerivedSources -DNDEBUG -c /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/btSoftBodySolver_CPU.cpp -o /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects-normal/x86_64/btSoftBodySolver_CPU.o0#
+
+CLibtool /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/libBulletSoftBodySolvers_CPU.a normal x86_64
+s314949686.259254
+e314949686.289933
+r1
+xLibtool
+x/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/libBulletSoftBodySolvers_CPU.a
+xnormal
+xx86_64
+lSLF07#2@107"Libtool src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/libBulletSoftBodySolvers_CPU.a normal x86_64314949686#314949686#0(0"0(0#0#0"8681512000#721"    cd /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release -filelist /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects-normal/x86_64/BulletSoftBodySolvers_CPU.LinkFileList -o /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/libBulletSoftBodySolvers_CPU.a0#
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Script-101AA12B0101AA12B0101AA1.sh
+s314949686.290049
+e314949686.356105
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Script-101AA12B0101AA12B0101AA1.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77 && make -C /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77 -f /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/CMakeScripts/XCODE_DEPEND_HELPER.make all.Release
+o/bin/rm -f /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/Demos/OpenCLClothDemo/MiniCL/Release/AppOpenCLClothDemo_Mini
+o/bin/rm -f /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/Demos/OpenCLClothDemo/Apple/Release/AppOpenCLClothDemo_Apple
+lSLF07#2@47"Run custom shell script 'CMake PostBuild Rules'314949686#314949686#0(574"echo "Depend check for xcode"Depend check for xcodecd /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77 && make -C /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77 -f /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/CMakeScripts/XCODE_DEPEND_HELPER.make all.Release/bin/rm -f /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/Demos/OpenCLClothDemo/MiniCL/Release/AppOpenCLClothDemo_Mini/bin/rm -f /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/Demos/OpenCLClothDemo/Apple/Release/AppOpenCLClothDemo_Apple5(13@30"echo "Depend check for xcode"314949686#0#30#0(1@0"0(13@23"Depend check for xcode314949686#30#23#0(1@0"0(13@253"cd /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77 && make -C /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77 -f /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/CMakeScripts/XCODE_DEPEND_HELPER.make all.Release314949686#53#253#0(1@0"0(13@134"/bin/rm -f /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/Demos/OpenCLClothDemo/MiniCL/Release/AppOpenCLClothDemo_Mini314949686#306#134#0(1@0"0(13@134"/bin/rm -f /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/Demos/OpenCLClothDemo/Apple/Release/AppOpenCLClothDemo_Apple314949686#440#134#0(1@0"0(0#0#0"8668103520#18340"    cd /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER davidwicks    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU    setenv BUILD_ROOT /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release    setenv CACHE_ROOT /var/folders/zz/zzp4bEQh2RW2o++8ZNFli++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/zz/zzp4bEQh2RW2o++8ZNFli++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/libBulletSoftBodySolvers_CPU.a    setenv CODE_SIGNING_ALLOWED NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/zz/zzp4bEQh2RW2o++8ZNFli++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release    setenv CONFIGURATION_TEMP_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/BULLET_PHYSICS.dst    setenv DWARF_DSYM_FILE_NAME libBulletSoftBodySolvers_CPU.a.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLE_EXTENSION a    setenv EXECUTABLE_NAME libBulletSoftBodySolvers_CPU.a    setenv EXECUTABLE_PATH libBulletSoftBodySolvers_CPU.a    setenv EXECUTABLE_PREFIX lib    setenv EXECUTABLE_SUFFIX .a    setenv FILE_LIST /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/FixedFiles    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME libBulletSoftBodySolvers_CPU.a    setenv GCC3_VERSION 3.3    setenv GCC_ENABLE_SYMBOL_SEPARATION NO    setenv GCC_GENERATE_DEBUGGING_SYMBOLS NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_OPTIMIZATION_LEVEL 3    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PREPROCESSOR_DEFINITIONS "'CMAKE_INTDIR=\"Release\"' USE_GRAPHICAL_BENCHMARK"    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/include /usr/local/include /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PREPROCESS NO    setenv INSTALL_DIR /tmp/BULLET_PHYSICS.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER davidwicks    setenv INSTALL_ROOT /tmp/BULLET_PHYSICS.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/BulletSoftBodySolvers_CPU-LinkMap-normal-x86_64.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release\" "    setenv LIBRARY_STYLE STATIC    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_x86_64 /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects-normal/x86_64/BulletSoftBodySolvers_CPU.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE staticlib    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1065    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0605    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects-normal    setenv OBJROOT /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS "    -DNDEBUG  "    setenv OTHER_CPLUSPLUSFLAGS "    -DNDEBUG  "    setenv PACKAGE_TYPE com.apple.package-type.static-library    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 10M2423    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /usr/local/include    setenv PRODUCT_NAME BulletSoftBodySolvers_CPU    setenv PRODUCT_SETTINGS_PATH     setenv PRODUCT_TYPE com.apple.product-type.library.static    setenv PROFILING_CODE NO    setenv PROJECT BULLET_PHYSICS    setenv PROJECT_DERIVED_FILE_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/DerivedSources    setenv PROJECT_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77    setenv PROJECT_FILE_PATH /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/BULLET_PHYSICS.xcodeproj    setenv PROJECT_NAME BULLET_PHYSICS    setenv PROJECT_TEMP_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build    setenv PUBLIC_HEADERS_FOLDER_PATH /usr/local/include    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/ResourceManagerResources    setenv REZ_EXECUTABLE YES    setenv REZ_OBJECTS_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP YES    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/DerivedSources    setenv SHARED_PRECOMPS_DIR /var/folders/zz/zzp4bEQh2RW2o++8ZNFli++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77    setenv SRCROOT /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SYMBOL_REPOSITORY_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/SymbolRepositories    setenv SYMROOT /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME BulletSoftBodySolvers_CPU    setenv TARGET_BUILD_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release    setenv TARGET_NAME BulletSoftBodySolvers_CPU    setenv TARGET_TEMP_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build    setenv TEMP_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build    setenv TEMP_FILES_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build    setenv TEMP_FILE_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build    setenv TEMP_ROOT /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU    setenv UID 501    setenv UNSTRIPPED_PRODUCT NO    setenv USER davidwicks    setenv USER_APPS_DIR /Users/davidwicks/Applications    setenv USER_LIBRARY_DIR /Users/davidwicks/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP NO    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSION_INFO_BUILDER davidwicks    setenv VERSION_INFO_FILE BulletSoftBodySolvers_CPU_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:BulletSoftBodySolvers_CPU  PROJECT:BULLET_PHYSICS-\""    setenv WARNING_CFLAGS "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas"    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT /Developer/SDKs/MacOSX10.6.sdk    /bin/sh -c /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Script-101AA12B0101AA12B0101AA1.sh0#
+
+CPhaseScriptExecution "CMake ReRun" /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Script-101AA08D0101AA08D0101AA0.sh
+s314949684.578412
+e314949684.609016
+r1
+xPhaseScriptExecution
+xCMake ReRun
+x/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Script-101AA08D0101AA08D0101AA0.sh
+omake: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF07#2@37"Run custom shell script 'CMake ReRun'314949684#314949684#0(52"make: `CMakeFiles/cmake.check_cache' is up to date.1(13@52"make: `CMakeFiles/cmake.check_cache' is up to date.314949684#0#52#0(1@0"0(0#0#0"8619363968#18340"    cd /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER davidwicks    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU    setenv BUILD_ROOT /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release    setenv CACHE_ROOT /var/folders/zz/zzp4bEQh2RW2o++8ZNFli++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/zz/zzp4bEQh2RW2o++8ZNFli++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/libBulletSoftBodySolvers_CPU.a    setenv CODE_SIGNING_ALLOWED NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/zz/zzp4bEQh2RW2o++8ZNFli++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release    setenv CONFIGURATION_TEMP_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/BULLET_PHYSICS.dst    setenv DWARF_DSYM_FILE_NAME libBulletSoftBodySolvers_CPU.a.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLE_EXTENSION a    setenv EXECUTABLE_NAME libBulletSoftBodySolvers_CPU.a    setenv EXECUTABLE_PATH libBulletSoftBodySolvers_CPU.a    setenv EXECUTABLE_PREFIX lib    setenv EXECUTABLE_SUFFIX .a    setenv FILE_LIST /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/FixedFiles    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME libBulletSoftBodySolvers_CPU.a    setenv GCC3_VERSION 3.3    setenv GCC_ENABLE_SYMBOL_SEPARATION NO    setenv GCC_GENERATE_DEBUGGING_SYMBOLS NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_OPTIMIZATION_LEVEL 3    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PREPROCESSOR_DEFINITIONS "'CMAKE_INTDIR=\"Release\"' USE_GRAPHICAL_BENCHMARK"    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/include /usr/local/include /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PREPROCESS NO    setenv INSTALL_DIR /tmp/BULLET_PHYSICS.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER davidwicks    setenv INSTALL_ROOT /tmp/BULLET_PHYSICS.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/BulletSoftBodySolvers_CPU-LinkMap-normal-x86_64.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release\" "    setenv LIBRARY_STYLE STATIC    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_x86_64 /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects-normal/x86_64/BulletSoftBodySolvers_CPU.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE staticlib    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1065    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0605    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Objects-normal    setenv OBJROOT /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS "    -DNDEBUG  "    setenv OTHER_CPLUSPLUSFLAGS "    -DNDEBUG  "    setenv PACKAGE_TYPE com.apple.package-type.static-library    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 10M2423    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /usr/local/include    setenv PRODUCT_NAME BulletSoftBodySolvers_CPU    setenv PRODUCT_SETTINGS_PATH     setenv PRODUCT_TYPE com.apple.product-type.library.static    setenv PROFILING_CODE NO    setenv PROJECT BULLET_PHYSICS    setenv PROJECT_DERIVED_FILE_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/DerivedSources    setenv PROJECT_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77    setenv PROJECT_FILE_PATH /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/BULLET_PHYSICS.xcodeproj    setenv PROJECT_NAME BULLET_PHYSICS    setenv PROJECT_TEMP_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build    setenv PUBLIC_HEADERS_FOLDER_PATH /usr/local/include    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/ResourceManagerResources    setenv REZ_EXECUTABLE YES    setenv REZ_OBJECTS_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP YES    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release/DerivedSources    setenv SHARED_PRECOMPS_DIR /var/folders/zz/zzp4bEQh2RW2o++8ZNFli++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77    setenv SRCROOT /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SYMBOL_REPOSITORY_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/SymbolRepositories    setenv SYMROOT /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME BulletSoftBodySolvers_CPU    setenv TARGET_BUILD_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/Release    setenv TARGET_NAME BulletSoftBodySolvers_CPU    setenv TARGET_TEMP_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build    setenv TEMP_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build    setenv TEMP_FILES_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build    setenv TEMP_FILE_DIR /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build    setenv TEMP_ROOT /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU    setenv UID 501    setenv UNSTRIPPED_PRODUCT NO    setenv USER davidwicks    setenv USER_APPS_DIR /Users/davidwicks/Applications    setenv USER_LIBRARY_DIR /Users/davidwicks/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP NO    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSION_INFO_BUILDER davidwicks    setenv VERSION_INFO_FILE BulletSoftBodySolvers_CPU_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:BulletSoftBodySolvers_CPU  PROJECT:BULLET_PHYSICS-\""    setenv WARNING_CFLAGS "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas"    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv _REAL_SDKROOT /Developer/SDKs/MacOSX10.6.sdk    /bin/sh -c /Users/davidwicks/Code/cpp/cinder/blocks/suBullet/bullet-2.77/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/BULLET_PHYSICS.build/Release/BulletSoftBodySolvers_CPU.build/Script-101AA08D0101AA08D0101AA0.sh0#
+
