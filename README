@@ -1,4 +1,4 @@
-Work in progress.
+sc-Bullet is a Cinder block to ease the inclusion of 3d physics in your application using the Bullet Physics library.
 
 Broad TODO:
 1. compile bullet 3d libs for OSX 	( X )
@@ -6,3 +6,7 @@ Broad TODO:
 2. use bullet 3d directly in an app	(  )
 3. simplify bullet world creation	(  )
 4. TriMesh -> Bullet integration	(  )
+
+Bullet Physics is a project started by Erwin Coumans
+http://code.google.com/p/bullet/
+http://bulletphysics.com/
