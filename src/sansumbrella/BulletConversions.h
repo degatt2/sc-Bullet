@@ -15,7 +15,8 @@
 
 namespace sansumbrella
 {
-	cinder::Vec3f fromBullet( const btVector3& in );
+	cinder::Vec3f	fromBullet( const btVector3& in );
+	btVector3		toBullet( const cinder::Vec3f& in );
 }
 
 #endif
