@@ -10,7 +10,7 @@
 #ifndef SU_BULLET_CONVERSIONS_H
 #define SU_BULLET_CONVERSIONS_H
 
-#include "btBulletDynamicsCommon.h"
+#include "LinearMath/btVector3.h"
 #include "cinder/Vector.h"
 
 namespace sansumbrella
