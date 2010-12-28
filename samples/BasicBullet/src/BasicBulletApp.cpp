@@ -1,5 +1,7 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
+#include "cinder/Camera.h"
+#include "cinder/MayaCamUI.h"
 #include "btBulletDynamicsCommon.h"
 #include "sansumbrella/DebugDraw.h"
 
@@ -23,10 +25,23 @@ class BasicBulletApp : public AppBasic {
 	btSequentialImpulseConstraintSolver* mSolver;
 	DebugDrawer* mDebugDrawer;
 	btAlignedObjectArray<btCollisionShape*> mCollisionShapes;
+	
+private:
+	MayaCamUI mCam;
+//	PolyLine<Vec3f> mPath;
+	vector< Vec3f > mPath;
 };
 
 void BasicBulletApp::setup()
 {
+	CameraPersp cam;
+	cam.setPerspective( 60.0f, getWindowAspectRatio(), 2.0f, 2000.0f );
+	cam.lookAt( Vec3f( 5.0f, 25.0f, -60.0f ), Vec3f( 0, -28, 0 ), Vec3f::yAxis() );
+	
+	mCam.setCurrentCam(cam);
+	registerMouseDown( &mCam, &MayaCamUI::mouseDown );
+	registerMouseDrag( &mCam, &MayaCamUI::mouseDrag );
+	
 	mCollisionConfiguration = new btDefaultCollisionConfiguration();
 	mDispatcher = new btCollisionDispatcher( mCollisionConfiguration );
 	
@@ -39,7 +54,7 @@ void BasicBulletApp::setup()
 	
 	mDebugDrawer = new DebugDrawer();
 	mWorld->setDebugDrawer( mDebugDrawer );
-	mWorld->getDebugDrawer()->setDebugMode( btIDebugDraw::DBG_DrawWireframe );
+	mWorld->getDebugDrawer()->setDebugMode( btIDebugDraw::DBG_MAX_DEBUG_DRAW_MODE );
 	
 	// create the ground body
 	
@@ -65,6 +80,7 @@ void BasicBulletApp::setup()
 		mWorld->addRigidBody( body );
 	}
 	
+	for( int i = 0; i < 100; i++ )
 	{
 		// create a dynamic rigidbody
 		btCollisionShape* colShape = new btSphereShape( btScalar(1.) );
@@ -82,7 +98,7 @@ void BasicBulletApp::setup()
 		if( isDynamic )
 			colShape->calculateLocalInertia(mass, localInertia);
 		
-		startTransform.setOrigin( btVector3( 2, 10, 0 ) );
+		startTransform.setOrigin( btVector3( 2, 10+i, 0 ) );
 		
 		btDefaultMotionState* motionStation = new btDefaultMotionState( startTransform );
 		btRigidBody::btRigidBodyConstructionInfo rbInfo( mass, motionStation, colShape, localInertia );
@@ -99,6 +115,7 @@ void BasicBulletApp::mouseDown( MouseEvent event )
 void BasicBulletApp::update()
 {
 	mWorld->stepSimulation( 1.0f/60.0f , 10 );
+	mPath.clear();
 	
 	for ( int j=mWorld->getNumCollisionObjects()-1; j >= 0; j-- )
 	{
@@ -108,8 +125,7 @@ void BasicBulletApp::update()
 		{
 			btTransform trans;
 			body->getMotionState()->getWorldTransform(trans);
-			console() << "World pos = " << trans.getOrigin().getX() << ", " << trans.getOrigin().getY() << ", "
-			<< trans.getOrigin().getZ() << endl;
+			mPath.push_back( fromBullet( trans.getOrigin() ) );
 		}
 	}
 }
@@ -118,8 +134,17 @@ void BasicBulletApp::draw()
 {
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
+	gl::enableAlphaBlending();
 	
-	mWorld->debugDrawWorld();
+	gl::setMatrices( mCam.getCamera() );
+	
+	gl::color( ColorA( 1.0, 1.0, 1.0, 0.1 ) );
+	
+	glEnableClientState( GL_VERTEX_ARRAY );
+	glVertexPointer( 3, GL_FLOAT, 0, &( mPath[0] ) );
+	glDrawArrays( GL_LINE_STRIP, 0, mPath.size() );
+	glDisableClientState( GL_VERTEX_ARRAY );
+	//mWorld->debugDrawWorld();
 }
 
 void BasicBulletApp::shutdown()
