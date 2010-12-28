@@ -1,16 +1,19 @@
-sc-Bullet is a Cinder block to ease the inclusion of 3d physics in your application using the Bullet Physics library.
+sc-Bullet is a minimal Cinder block to ease the inclusion of 3d physics in your application using the Bullet Physics library.
 
 Broad TODO:
 1. compile bullet 3d libs for OSX 	( X )
 .1 compile bullet 3d libs for win7	(  )
 2. create a hello world app
    using bullet + cinder together	( X )
-.1 add graphics to bullet+cinder app	(  )
-.2 implement btIDebugDraw for cinder	(  )
+.1 add graphics to bullet+cinder app	( X )
+.2 implement btIDebugDraw for cinder	( X )
 3. simplify bullet world creation	(  )
 .1 create sandbox for world,
    body creation, and destruction	(  )
-4. TriMesh -> Bullet integration	(  )
+4. conversions from bt and cinder::	(  )
+.1 Vec3f <-> btVector3			( X )
+.2 TriMesh <-> btBvhTriangleMeshShape	(  )
+
 
 Bullet Physics is a project started by Erwin Coumans
 http://code.google.com/p/bullet/
