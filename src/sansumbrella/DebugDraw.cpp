@@ -48,9 +48,16 @@ void DebugDrawer::drawBox (const btVector3& boxMin, const btVector3& boxMax, con
 void DebugDrawer::drawTriangle(const btVector3& a,const btVector3& b,const btVector3& c,const btVector3& color,btScalar alpha)
 {
 	gl::color( ColorA( color.getX(), color.getY(), color.getZ(), alpha ) );
-	gl::drawLine( fromBullet(a), fromBullet(b) );
-	gl::drawLine( fromBullet(b), fromBullet(c) );
-	gl::drawLine( fromBullet(c), fromBullet(a) );
+	
+	Vec3f vertex[3];
+	vertex[0] = fromBullet(a);
+	vertex[1] = fromBullet(b);
+	vertex[2] = fromBullet(c);
+	
+	glEnableClientState( GL_VERTEX_ARRAY );
+	glVertexPointer( 3, GL_FLOAT, 0, &vertex[0].x );
+	glDrawArrays( GL_TRIANGLES, 0, 3 );
+	glDisableClientState( GL_VERTEX_ARRAY );
 }
 
 
@@ -68,7 +75,8 @@ void DebugDrawer::reportErrorWarning( const char *warningString )
 
 void DebugDrawer::draw3dText( const btVector3 &location, const char *textString )
 {
-	app::console() << "not currently drawing 3d text: " << textString << std::endl;
+	app::console() << "3d text wants rendered: " << textString << std::endl;
+//	gl::drawString( textString, fromBullet(location), Color::white(), Font("Arial", 12.0f) );
 }
 
 void DebugDrawer::setDebugMode( int debugMode )
