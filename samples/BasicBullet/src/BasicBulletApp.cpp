@@ -54,7 +54,7 @@ void BasicBulletApp::setup()
 	
 	mDebugDrawer = new DebugDrawer();
 	mWorld->setDebugDrawer( mDebugDrawer );
-	mWorld->getDebugDrawer()->setDebugMode( btIDebugDraw::DBG_MAX_DEBUG_DRAW_MODE );
+	mWorld->getDebugDrawer()->setDebugMode( btIDebugDraw::DBG_DrawWireframe );
 	
 	// create the ground body
 	
