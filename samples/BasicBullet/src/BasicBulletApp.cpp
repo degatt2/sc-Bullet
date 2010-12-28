@@ -138,13 +138,14 @@ void BasicBulletApp::draw()
 	
 	gl::setMatrices( mCam.getCamera() );
 	
-	gl::color( ColorA( 1.0, 1.0, 1.0, 0.1 ) );
+	gl::color( ColorA( 1.0, 1.0, 1.0, 0.5 ) );
 	
 	glEnableClientState( GL_VERTEX_ARRAY );
 	glVertexPointer( 3, GL_FLOAT, 0, &( mPath[0] ) );
 	glDrawArrays( GL_LINE_STRIP, 0, mPath.size() );
 	glDisableClientState( GL_VERTEX_ARRAY );
-	//mWorld->debugDrawWorld();
+	
+	mWorld->debugDrawWorld();
 }
 
 void BasicBulletApp::shutdown()
