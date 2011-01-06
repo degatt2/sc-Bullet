@@ -77,17 +77,17 @@ void BulletSandbox::debugDraw()
 
 void BulletSandbox::debugPrint()
 {
-	//for ( int j=mWorld->getNumCollisionObjects()-1; j >= 0; j-- )
-//	{
-//		btCollisionObject* obj = mWorld->getCollisionObjectArray()[j];
-//		btRigidBody* body = btRigidBody::upcast(obj);
-//		if( body && body->getMotionState() )
-//		{
-//			btTransform trans;
-//			body->getMotionState()->getWorldTransform(trans);
-//			mPath.push_back( fromBullet( trans.getOrigin() ) );
-//		}
-//	}	
+	for ( int j=mWorld->getNumCollisionObjects()-1; j >= 0; j-- )
+	{
+		btCollisionObject* obj = mWorld->getCollisionObjectArray()[j];
+		btRigidBody* body = btRigidBody::upcast(obj);
+		if( body && body->getMotionState() )
+		{
+			btTransform trans;
+			body->getMotionState()->getWorldTransform(trans);
+			app::console() << "Position: " << fromBullet( trans.getOrigin() ) << endl;
+		}
+	}	
 }
 
 void BulletSandbox::stepSimulation( btScalar timeStep,int maxSubSteps, btScalar fixedTimeStep )
